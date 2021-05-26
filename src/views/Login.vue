@@ -35,7 +35,7 @@ export default {
         await firebase
           .auth()
           .signInWithEmailAndPassword(this.email, this.password);
-        this.$router.replace({ name: "Secret" });
+        this.$router.replace({ name: "movie" });
       } catch (err) {
         console.log(err);
       }

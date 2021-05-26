@@ -68,16 +68,17 @@ export default {
     all: unset;
     color: #ecddfd;
     font-size: 3vw;
+    cursor: pointer;
   }
 }
 .detail {
   position: absolute;
   width: fit-content;
-  height: 100px;
+  height: 150px;
   background-color: #1f1f1f;
   font-size: 15px;
   right: 0;
-  top: 90px;
+  top: 100px;
   box-sizing: border-box;
   padding: 20px;
   color: white;

@@ -9,7 +9,7 @@ export default createStore({
   },
   actions: {
     async getTodayTrends(data, { url, query }) {
-      const res = await axios.get(`https:/api.themoviedb.org/3/${url}?api_key=${this.state.apiKey}&query=${query}`);
+      const res = await axios.get(`https://api.themoviedb.org/3/${url}?api_key=${this.state.apiKey}&query=${query}`);
       return res.data;
     }
   },

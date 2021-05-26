@@ -46,7 +46,7 @@ export default {
           });
 
         console.dir(user);
-        this.$router.replace({ name: "Secret" });
+        this.$router.replace({ name: "movie" });
       } catch (err) {
         console.log(err);
       }
