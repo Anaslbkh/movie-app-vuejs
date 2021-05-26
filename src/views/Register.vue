@@ -10,7 +10,11 @@
         <input type="email" v-model="email" placeholder="email" />
       </div>
       <div class="password">
-        <input type="password" v-model="password" placeholder="password" />
+        <input
+          type="password"
+          v-model="password"
+          placeholder="the password should be more than 6 chars"
+        />
       </div>
       <button type="submit">Register</button>
     </form>
